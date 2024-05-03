@@ -1,0 +1,12 @@
+find_transcripts_task:
+  description: >
+    Use a search tool to look up the latest 5 transcripts of the following podecast: {podcast_name}. 
+    The goal is to prepare enough information to make an detailed summaries of each transcript.
+  expected_output: >
+    The latest 5 transcripts of the respective podcast.
+
+summarise_transcripts_task:
+  description: >
+    Take the provided transcripts, analyze it, and provide a detailed summary of each one.
+  expected_output: >
+    A nicely formatted summary of each one of the provided transcripts.
