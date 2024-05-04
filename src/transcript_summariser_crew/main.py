@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-from transcript_summariser_crew.crew import TranscriptSummariserCrew
+from crew import TranscriptSummariserCrew
 
 def run():
     inputs = {

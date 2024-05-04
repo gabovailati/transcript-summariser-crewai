@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "transcript-summariser-crewai"
+name = "transcript_summariser_crewai"
 version = "0.1.0"
 description = ""
 authors = ["Gabriel Vailati <gabrielgvailati@gmail.com>"]

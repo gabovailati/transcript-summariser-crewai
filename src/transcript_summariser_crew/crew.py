@@ -36,7 +36,7 @@ class TranscriptSummariserCrew():
 	def summarise_transcripts_task(self) -> Task:
 		return Task(
 			config = self.tasks_config['summarise_transcripts_task'],
-			agent = self.csummariser()
+			agent = self.summariser()
 		)
 
 	@crew
